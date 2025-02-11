@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StepTeam.ua – Розумне обладнання, розумний дім</title>
+  <style>
+    /* Сброс стилей */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    /* Шапка сайта с логотипом */
+    header {
+      background: url('images/logo-stepteam.jpg') no-repeat center center;
+      background-size: contain;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 50px;
+    }
+
+    /* Навигация */
+    nav {
+      background: #000;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav li {
+      margin: 0 15px;
+    }
+
+    nav a {
+      font-size: 1rem;
+      font-weight: bold;
+      color: white;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: opacity 0.3s;
+    }
+
+    nav a:hover {
+      opacity: 0.7;
+    }
+
+    /* Главный баннер */
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: url('https://source.unsplash.com/1600x900/?technology,smart-home') no-repeat center center/cover;
+      position: relative;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+    }
+
+    .hero h2 {
+      position: relative;
+      font-size: 3rem;
+      color: white;
+    }
+
+    .hero p {
+      position: relative;
+      font-size: 1.3rem;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+
+    .hero .btn {
+      position: relative;
+      display: inline-block;
+      background: white;
+      color: black;
+      padding: 10px 20px;
+      margin-top: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .hero .btn:hover {
+      background: #ffcc00;
+    }
+
+    /* Футер */
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header></header>
+
+  <nav>
+    <ul>
+      <li><a href="Main page.html">Головна</a></li>
+      <li><a href="services.html">Послуги</a></li>
+      <li><a href="gallery.html">Наші роботи</a></li>
+      <li><a href="pricing.html">Ціни</a></li>
+      <li><a href="testimonials.html">Відгуки</a></li>
+      <li><a href="contacts.html">Контакти</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h2>Розумне обладнання, розумний дім</h2>
+    <p>Інноваційні рішення для вашого комфорту та безпеки</p>
+    <a href="services.html" class="btn">Дізнатися більше</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 StepTeam.ua. Усі права захищено.</p>
+  </footer>
+
+</body>
+</html>
